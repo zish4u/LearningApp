@@ -9,6 +9,8 @@ import { FooterComponent } from './footer/footer.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { CoursesModule } from './courses/courses.module';
 import { StaticPagesModule } from './static-pages/static-pages.module';
+import { AuthModule } from './auth/auth.module';
+import { AdminModule } from './admin/admin.module';
 
 @NgModule({
   declarations: [
@@ -22,6 +24,8 @@ import { StaticPagesModule } from './static-pages/static-pages.module';
     BrowserModule,
     AppRoutingModule,
     CoursesModule,
+    AuthModule,
+    AdminModule,
     StaticPagesModule
   ],
   providers: [],
